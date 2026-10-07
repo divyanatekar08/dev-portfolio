@@ -1,6 +1,6 @@
 # Divya Natekar | Developer Portfolio & Research Showcase
 
-[![Live Portfolio](https://img.shields.io/badge/Website-Live_Site-000000?style=for-the-badge&logo=vercel)](https://github.com/divyanatekar08/dev-portfolio)
+[![Live Portfolio](https://img.shields.io/badge/Website-Live_Site-000000?style=for-the-badge&logo=vercel)](https://divya-natekar-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Divya_Natekar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
 [![Email](https://img.shields.io/badge/Email-dyn2009%40nyu.edu-D14836?style=for-the-badge&logo=gmail)](mailto:dyn2009@nyu.edu)
 
