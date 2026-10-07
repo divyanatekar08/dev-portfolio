@@ -5,10 +5,11 @@
   --bg-card: #ffffff;
   --border-color: #e5dec9;
   --border-hover: #d1c4a5;
-  --text-primary: #2b231f;
-  --text-muted: #6e6158;
-  --accent-tea: #8c6d58;
-  --accent-tea-light: #eae3d2;
+  --text-primary: #3c2f29;     /* Deep Espresso Brown instead of black */
+  --text-headers: #2a1f19;     /* Dark Roasted Coffee for Main Titles */
+  --text-muted: #6e6158;       /* Soft Roasted Walnut */
+  --accent-tea: #8c6d58;       /* Warm Milk Tea Accent */
+  --accent-tea-light: #eae3d2; /* Oat Cream Badge Background */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
@@ -59,7 +60,7 @@ a {
   font-weight: 800;
   letter-spacing: -0.02em;
   margin-bottom: 0.4rem;
-  color: var(--text-primary);
+  color: var(--text-headers);
 }
 
 .sidebar-header h2 {
@@ -136,11 +137,11 @@ a {
 }
 
 .btn-sidebar:hover {
-  background: var(--text-primary);
-  border-color: var(--text-primary);
+  background: var(--text-headers);
+  border-color: var(--text-headers);
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(43, 35, 31, 0.15);
+  box-shadow: 0 4px 12px rgba(42, 31, 25, 0.15);
 }
 
 /* Right Content Area */
@@ -160,7 +161,7 @@ a {
   letter-spacing: -0.01em;
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.6rem;
-  color: var(--text-primary);
+  color: var(--text-headers);
 }
 
 /* Clean Cards */
@@ -217,7 +218,7 @@ a {
 .exp-title {
   font-size: 1.08rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-headers);
 }
 
 .exp-period {
