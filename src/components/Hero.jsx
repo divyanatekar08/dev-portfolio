@@ -1,16 +1,17 @@
 import React from 'react';
+import profilePic from '../assets/profile.jpg';
 
 export default function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <p className="badge">MS Urban Data Science @ NYU Tandon</p>
+        <span className="badge">MS Urban Data Science @ NYU Tandon</span>
         <h1>
           Hi, I'm <span className="highlight">Divya Natekar</span> 👋
         </h1>
         <h2>Software Engineer Intern (AI/ML) & Spatial Data Specialist</h2>
         <p className="description">
-          I specialize in Urban AI, Agent-Based Mobility Simulation, and Full-Stack Cloud Engineering. 
+          I specialize in Urban AI, Agent-Based Mobility Simulation, and Full-Stack Cloud Engineering.
           Bridging LLMs, spatial interaction modeling, and high-performance backend systems to build intelligent decision engines.
         </p>
         <div className="cta-buttons">
@@ -19,6 +20,9 @@ export default function Hero() {
             View Resume 📄
           </a>
         </div>
+      </div>
+      <div className="hero-avatar-wrapper">
+        <img src={profilePic} alt="Divya Natekar" className="hero-avatar" />
       </div>
     </section>
   );
