@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=3000&pause=1000&color=4A2E22&center=true&vCenter=true&width=450&height=38&lines=Divya+Natekar" alt="Divya Natekar" style="display: block; margin-bottom: 2px;" />
+<h1 style="color: #4A2E22; margin-bottom: 4px; font-size: 2.2rem; font-weight: 800;">Divya Natekar</h1>
 
-**Software Engineer (AI/ML) & Spatial Analytics Specialist**
+<p style="color: #4A2E22; font-weight: 600; margin-top: 0; margin-bottom: 12px; font-size: 1.1rem;">
+  Software Engineer (AI/ML) & Spatial Analytics Specialist
+</p>
 
-<p align="center" style="margin-top: 6px;">
+<p align="center" style="margin-top: 0; margin-bottom: 20px;">
   <a href="https://divya-natekar-portfolio.vercel.app"><img src="https://img.shields.io/badge/Live_Portfolio-91684A?style=flat-square&logo=vercel&logoColor=ffffff" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/divya-yeshwant-natekar/"><img src="https://img.shields.io/badge/LinkedIn-4A2E22?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn" /></a>
   <a href="mailto:dyn2009@nyu.edu"><img src="https://img.shields.io/badge/Email-7D6859?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email" /></a>
