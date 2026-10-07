@@ -5,10 +5,10 @@
   --bg-card: #ffffff;
   --border-color: #e5dec9;
   --border-hover: #d1c4a5;
-  --text-primary: #3c2f29;     /* Deep Espresso Brown instead of black */
-  --text-headers: #2a1f19;     /* Dark Roasted Coffee for Main Titles */
-  --text-muted: #6e6158;       /* Soft Roasted Walnut */
-  --accent-tea: #8c6d58;       /* Warm Milk Tea Accent */
+  --text-primary: #5c4538;     /* Rich Mocha Brown */
+  --text-headers: #4a2e22;     /* Visible Warm Chestnut Brown for Titles */
+  --text-muted: #7d6859;       /* Soft Taupe Brown */
+  --accent-tea: #91684a;       /* Warm Milk Tea Accent */
   --accent-tea-light: #eae3d2; /* Oat Cream Badge Background */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
@@ -87,7 +87,7 @@ a {
 .pill {
   background: var(--accent-tea-light);
   color: var(--accent-tea);
-  border: 1px solid rgba(140, 109, 88, 0.25);
+  border: 1px solid rgba(145, 104, 74, 0.25);
   padding: 0.35rem 0.85rem;
   border-radius: 6px;
   font-size: 0.78rem;
@@ -133,7 +133,7 @@ a {
   background: var(--bg-card);
   transition: all 0.2s ease;
   color: var(--text-primary);
-  box-shadow: 0 1px 3px rgba(43, 35, 31, 0.05);
+  box-shadow: 0 1px 3px rgba(74, 46, 34, 0.05);
 }
 
 .btn-sidebar:hover {
@@ -141,7 +141,7 @@ a {
   border-color: var(--text-headers);
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(42, 31, 25, 0.15);
+  box-shadow: 0 4px 12px rgba(74, 46, 34, 0.18);
 }
 
 /* Right Content Area */
@@ -171,7 +171,7 @@ a {
   border-radius: 14px;
   padding: 1.75rem;
   transition: all 0.25s ease;
-  box-shadow: 0 2px 6px rgba(43, 35, 31, 0.03);
+  box-shadow: 0 2px 6px rgba(74, 46, 34, 0.03);
 }
 
 .about-card {
@@ -186,7 +186,7 @@ a {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent-tea-light);
-  box-shadow: 0 4px 12px rgba(43, 35, 31, 0.08);
+  box-shadow: 0 4px 12px rgba(74, 46, 34, 0.08);
 }
 
 .about-info p {
@@ -205,7 +205,7 @@ a {
 .exp-card:hover {
   border-color: var(--border-hover);
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(43, 35, 31, 0.06);
+  box-shadow: 0 8px 20px rgba(74, 46, 34, 0.06);
 }
 
 .exp-header {
