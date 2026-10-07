@@ -1,14 +1,16 @@
-# Divya Natekar | Developer Portfolio & Research Showcase
+# ☕ Divya Natekar | Developer Portfolio & Research Showcase
 
-[![Live Portfolio](https://img.shields.io/badge/Website-Live_Site-000000?style=for-the-badge&logo=vercel)](https://divya-natekar-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Divya_Natekar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
-[![Email](https://img.shields.io/badge/Email-dyn2009%40nyu.edu-D14836?style=for-the-badge&logo=gmail)](mailto:dyn2009@nyu.edu)
+[![Live Portfolio](https://img.shields.io/badge/Live_Site-divya--natekar--portfolio.vercel.app-8C6D58?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://divya-natekar-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Divya_Natekar-5C4538?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
+[![Email](https://img.shields.io/badge/Email-dyn2009%40nyu.edu-8C6D58?style=for-the-badge&logo=gmail&logoColor=ffffff)](mailto:dyn2009@nyu.edu)
 
-Personal developer portfolio showcasing research in **Urban AI, Agent-Based Simulation, and 3D LiDAR Processing**, alongside full-stack application development in **Next.js, React, Supabase, and Microservices Architecture**.
+A polished, single-page developer portfolio showcasing research in **Urban AI, Agent-Based Mobility Simulation, and 3D LiDAR Analytics**, alongside full-stack application development with **Next.js, React, Supabase, and Microservices**.
+
+Designed with a warm **Milk Tea & Espresso** visual hierarchy and built using **React, Vite, and CSS Modules**.
 
 ---
 
-## 👩‍💻 About Me
+## 🤎 About Me
 
 * **Education:** M.S. in Urban Data Science at **New York University (NYU Tandon / CUSP)**.
 * **Research Focus:** Urban Artificial Intelligence, Agent-Based Mobility Modeling, Generative AI Architectures, and 3D LiDAR Point Cloud Analytics.
