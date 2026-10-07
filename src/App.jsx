@@ -9,7 +9,7 @@ export default function App() {
       <aside className="sidebar">
         <div>
           <div className="sidebar-header">
-            <h1>Divya <span className="highlight-italic">Natekar</span></h1>
+            <h1>Divya Natekar</h1>
             <h2>Software Engineer Intern (AI/ML) & Spatial Analytics Specialist</h2>
           </div>
 
@@ -48,7 +48,7 @@ export default function App() {
         
         {/* ABOUT SECTION */}
         <section id="about" className="content-section">
-          <h2 className="section-title">About <span>Me</span></h2>
+          <h2 className="section-title">About Me</h2>
           <div className="about-card">
             <img src={profilePic} alt="Divya Natekar" className="about-photo" />
             <div className="about-info">
@@ -61,7 +61,7 @@ export default function App() {
 
         {/* EXPERIENCE SECTION */}
         <section id="experience" className="content-section">
-          <h2 className="section-title">Where I've <span>Worked</span></h2>
+          <h2 className="section-title">Where I've Worked</h2>
           <div className="experience-list">
             
             <div className="exp-card">
@@ -115,7 +115,7 @@ export default function App() {
 
         {/* TECH STACK SECTION */}
         <section id="skills" className="content-section">
-          <h2 className="section-title">Tech <span>Stack</span></h2>
+          <h2 className="section-title">Tech Stack</h2>
           <div className="tech-grid">
             <div className="tech-box">
               <h4>Languages</h4>
@@ -155,7 +155,7 @@ export default function App() {
 
         {/* PROJECTS & RESEARCH SECTION */}
         <section id="projects" className="content-section">
-          <h2 className="section-title">Featured Projects & <span>Research</span></h2>
+          <h2 className="section-title">Featured Projects & Research</h2>
           <div className="experience-list">
 
             <div className="exp-card">

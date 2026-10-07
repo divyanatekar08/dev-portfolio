@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg-main: #faf8f5;
+  --bg-main: #f5f2eb;
   --bg-card: #ffffff;
-  --border-color: #e8e3dd;
-  --border-hover: #cbd5e1;
-  --text-primary: #0f172a;
-  --text-muted: #475569;
-  --accent-indigo: #1e1b4b;
-  --accent-rose: #be123c;
-  --accent-rose-soft: #fff1f2;
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --border-color: #e5dec9;
+  --border-hover: #d1c4a5;
+  --text-primary: #2b231f;
+  --text-muted: #6e6158;
+  --accent-tea: #8c6d58;
+  --accent-tea-light: #eae3d2;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -57,19 +55,11 @@ a {
 }
 
 .sidebar-header h1 {
-  font-family: var(--font-serif);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-bottom: 0.5rem;
-  color: var(--accent-indigo);
-}
-
-.sidebar-header .highlight-italic {
-  font-style: italic;
-  font-weight: 400;
-  color: var(--accent-rose);
+  margin-bottom: 0.4rem;
+  color: var(--text-primary);
 }
 
 .sidebar-header h2 {
@@ -94,14 +84,13 @@ a {
 }
 
 .pill {
-  background: var(--accent-rose-soft);
-  color: var(--accent-rose);
-  border: 1px solid rgba(190, 18, 60, 0.15);
+  background: var(--accent-tea-light);
+  color: var(--accent-tea);
+  border: 1px solid rgba(140, 109, 88, 0.25);
   padding: 0.35rem 0.85rem;
-  border-radius: 9999px;
+  border-radius: 6px;
   font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.01em;
 }
 
 .sidebar-nav {
@@ -117,14 +106,14 @@ a {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  transition: all 0.25 ease;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
 
 .sidebar-nav a:hover {
-  color: var(--accent-rose);
+  color: var(--accent-tea);
   transform: translateX(6px);
 }
 
@@ -136,22 +125,22 @@ a {
 
 .btn-sidebar {
   padding: 0.75rem 1.4rem;
-  border-radius: 12px;
+  border-radius: 10px;
   font-size: 0.85rem;
   font-weight: 600;
   border: 1px solid var(--border-color);
   background: var(--bg-card);
-  transition: all 0.25s ease;
+  transition: all 0.2s ease;
   color: var(--text-primary);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 3px rgba(43, 35, 31, 0.05);
 }
 
 .btn-sidebar:hover {
-  background: var(--accent-indigo);
-  border-color: var(--accent-indigo);
+  background: var(--text-primary);
+  border-color: var(--text-primary);
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(30, 27, 75, 0.15);
+  box-shadow: 0 4px 12px rgba(43, 35, 31, 0.15);
 }
 
 /* Right Content Area */
@@ -165,29 +154,23 @@ a {
 }
 
 .section-title {
-  font-family: var(--font-serif);
-  font-size: 1.85rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 800;
   margin-bottom: 1.75rem;
   letter-spacing: -0.01em;
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.6rem;
-  color: var(--accent-indigo);
+  color: var(--text-primary);
 }
 
-.section-title span {
-  font-style: italic;
-  font-weight: 400;
-}
-
-/* Figma-Style Polished Cards */
+/* Clean Cards */
 .about-card, .exp-card, .tech-box {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: 18px;
-  padding: 1.85rem;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
+  border-radius: 14px;
+  padding: 1.75rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(43, 35, 31, 0.03);
 }
 
 .about-card {
@@ -197,18 +180,18 @@ a {
 }
 
 .about-photo {
-  width: 135px;
-  height: 135px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--accent-rose-soft);
-  box-shadow: 0 8px 20px rgba(190, 18, 60, 0.12);
+  border: 3px solid var(--accent-tea-light);
+  box-shadow: 0 4px 12px rgba(43, 35, 31, 0.08);
 }
 
 .about-info p {
   color: var(--text-muted);
-  font-size: 0.98rem;
-  line-height: 1.7;
+  font-size: 0.95rem;
+  line-height: 1.65;
 }
 
 /* Experience List */
@@ -220,8 +203,8 @@ a {
 
 .exp-card:hover {
   border-color: var(--border-hover);
-  transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.07);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(43, 35, 31, 0.06);
 }
 
 .exp-header {
@@ -232,16 +215,15 @@ a {
 }
 
 .exp-title {
-  font-size: 1.12rem;
+  font-size: 1.08rem;
   font-weight: 700;
   color: var(--text-primary);
 }
 
 .exp-period {
   font-size: 0.8rem;
-  color: var(--accent-rose);
+  color: var(--accent-tea);
   font-weight: 700;
-  letter-spacing: 0.02em;
 }
 
 .exp-company {
@@ -270,12 +252,12 @@ a {
 }
 
 .tag-item {
-  background: #f1f5f9;
-  border: 1px solid #e2e8f0;
-  padding: 0.28rem 0.7rem;
-  border-radius: 8px;
+  background: var(--bg-main);
+  border: 1px solid var(--border-color);
+  padding: 0.28rem 0.65rem;
+  border-radius: 6px;
   font-size: 0.76rem;
-  color: #334155;
+  color: var(--text-muted);
   font-weight: 600;
 }
 
@@ -286,7 +268,7 @@ a {
   gap: 0.35rem;
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--accent-rose);
+  color: var(--accent-tea);
   margin-top: 1.1rem;
   transition: color 0.2s ease;
 }
@@ -296,7 +278,7 @@ a {
 }
 
 .link-badge.private {
-  color: #d97706;
+  color: #b45309;
 }
 
 /* Tech Stack Grid */
@@ -307,9 +289,8 @@ a {
 }
 
 .tech-box h4 {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  color: var(--accent-indigo);
+  font-size: 0.95rem;
+  color: var(--accent-tea);
   margin-bottom: 0.75rem;
 }
 
