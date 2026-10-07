@@ -5,9 +5,9 @@
   --bg-card: #ffffff;
   --border-color: #e5dec9;
   --border-hover: #d1c4a5;
-  --text-primary: #5c4538;     /* Rich Mocha Brown */
-  --text-headers: #4a2e22;     /* Visible Warm Chestnut Brown for Titles */
-  --text-muted: #7d6859;       /* Soft Taupe Brown */
+  --text-primary: #4a2e22;     /* Warm Chestnut Brown (matches Divya Natekar) */
+  --text-headers: #4a2e22;     /* Applied across ALL section titles & card headings */
+  --text-muted: #7d6859;       /* Soft Taupe Brown for body text */
   --accent-tea: #91684a;       /* Warm Milk Tea Accent */
   --accent-tea-light: #eae3d2; /* Oat Cream Badge Background */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -21,7 +21,7 @@
 
 body {
   background-color: var(--bg-main);
-  color: var(--text-primary);
+  color: var(--text-muted);
   font-family: var(--font-sans);
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
@@ -132,7 +132,7 @@ a {
   border: 1px solid var(--border-color);
   background: var(--bg-card);
   transition: all 0.2s ease;
-  color: var(--text-primary);
+  color: var(--text-headers);
   box-shadow: 0 1px 3px rgba(74, 46, 34, 0.05);
 }
 
