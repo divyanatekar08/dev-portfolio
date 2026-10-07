@@ -1,13 +1,14 @@
 <div align="center">
 
-<!-- Typewriter Animated Header SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=4A2E22&center=true&vCenter=true&width=500&height=50&lines=Divya+Natekar" alt="Divya Natekar" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=3000&pause=1000&color=4A2E22&center=true&vCenter=true&width=450&height=38&lines=Divya+Natekar" alt="Divya Natekar" style="display: block; margin-bottom: 2px;" />
 
-### Software Engineer (AI/ML) & Spatial Analytics Specialist
+**Software Engineer (AI/ML) & Spatial Analytics Specialist**
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-91684A?style=flat-square&logo=vercel&logoColor=ffffff)](https://divya-natekar-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4A2E22?style=flat-square&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
-[![Email](https://img.shields.io/badge/Email-7D6859?style=flat-square&logo=gmail&logoColor=ffffff)](mailto:dyn2009@nyu.edu)
+<p align="center" style="margin-top: 6px;">
+  <a href="https://divya-natekar-portfolio.vercel.app"><img src="https://img.shields.io/badge/Live_Portfolio-91684A?style=flat-square&logo=vercel&logoColor=ffffff" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/divya-yeshwant-natekar/"><img src="https://img.shields.io/badge/LinkedIn-4A2E22?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn" /></a>
+  <a href="mailto:dyn2009@nyu.edu"><img src="https://img.shields.io/badge/Email-7D6859?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email" /></a>
+</p>
 
 </div>
 
