@@ -53,7 +53,7 @@ export default function App() {
             <img src={profilePic} alt="Divya Natekar" className="about-photo" />
             <div className="about-info">
               <p>
-                I hold an M.S. in Urban Data Science from <strong>NYU Tandon / CUSP</strong>[cite: 5]. My focus lies at the intersection of AI decision models, high-performance web applications, and 3D spatial analytics[cite: 5]. 
+                I hold an M.S. in Urban Data Science from <strong>NYU Tandon / CUSP</strong>. My focus lies at the intersection of AI decision models, high-performance web applications, and 3D spatial analytics.
               </p>
             </div>
           </div>
@@ -71,9 +71,9 @@ export default function App() {
               </div>
               <div className="exp-company">PM Accelerator — Remote</div>
               <ul>
-                <li>Designed Next.js App Router API micro-routes backed by Supabase and PostgreSQL to power a real-time AI personal relationship manager[cite: 5].</li>
-                <li>Integrated Langfuse SDK telemetry across Next.js API boundaries to trace LLM execution flows and monitor prompt latency[cite: 5].</li>
-                <li>Refactored query logic using ISO timestamp boundary filtering in Supabase to enhance security and query efficiency[cite: 5].</li>
+                <li>Designed Next.js App Router API micro-routes backed by Supabase and PostgreSQL to power a real-time AI personal relationship manager.</li>
+                <li>Integrated Langfuse SDK telemetry across Next.js API boundaries to trace LLM execution flows and monitor prompt latency.</li>
+                <li>Refactored query logic using ISO timestamp boundary filtering in Supabase to enhance security and query efficiency.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Next.js</span>
@@ -83,7 +83,7 @@ export default function App() {
                 <span className="tag-item">TypeScript</span>
               </div>
               <div className="link-badge private">
-                🔒 Enterprise NDA / Private Repository[cite: 5]
+                🔒 Enterprise NDA / Private Repository
               </div>
             </div>
 
@@ -94,9 +94,9 @@ export default function App() {
               </div>
               <div className="exp-company">L&T Technology Services (LTTS) — Airoli, India</div>
               <ul>
-                <li>Built healthcare data components integrating connected wearable devices with the Philips HSDP cloud ecosystem[cite: 5].</li>
-                <li>Engineered real-time data ingestion pipelines using Java Spring Boot, Apache Kafka, and Spring Vault[cite: 5].</li>
-                <li>Provisioned cloud infrastructure using Terraform and Microsoft Azure[cite: 5].</li>
+                <li>Built healthcare data components integrating connected wearable devices with the Philips HSDP cloud ecosystem.</li>
+                <li>Engineered real-time data ingestion pipelines using Java Spring Boot, Apache Kafka, and Spring Vault.</li>
+                <li>Provisioned cloud infrastructure using Terraform and Microsoft Azure.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Java Spring Boot</span>
@@ -106,7 +106,7 @@ export default function App() {
                 <span className="tag-item">Postman</span>
               </div>
               <div className="link-badge private">
-                🏢 Internal Client Platform (Non-Public Source)[cite: 5]
+                🏢 Internal Client Platform (Non-Public Source)
               </div>
             </div>
 
@@ -165,8 +165,8 @@ export default function App() {
               </div>
               <div className="exp-company">NYU CUSP & Downtown Brooklyn Partnership</div>
               <ul>
-                <li>Developed an agent-based simulation framework analyzing urban mobility flows and multi-agent choice behavior[cite: 5].</li>
-                <li>Integrated LLMs, spatial interaction methods, and gravity-based preference engines to capture qualitative decision-making[cite: 5].</li>
+                <li>Developed an agent-based simulation framework analyzing urban mobility flows and multi-agent choice behavior.</li>
+                <li>Integrated LLMs, spatial interaction methods, and gravity-based preference engines to capture qualitative decision-making.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Agent-Based Modeling</span>
@@ -186,8 +186,8 @@ export default function App() {
               </div>
               <div className="exp-company">NYU CUSP Summer Guided Research</div>
               <ul>
-                <li>Designed RANSAC filtering workflows and spatial clustering to strip transient objects from 3D LiDAR point clouds[cite: 5].</li>
-                <li>Awarded NYU Tandon CUSP Experiential Learning Scholarship; presented at Fall Showcase[cite: 5].</li>
+                <li>Designed RANSAC filtering workflows and spatial clustering to strip transient objects from 3D LiDAR point clouds.</li>
+                <li>Awarded NYU Tandon CUSP Experiential Learning Scholarship; presented at Fall Showcase.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">3D LiDAR</span>
@@ -211,7 +211,7 @@ export default function App() {
               <span className="exp-title">M.S. Urban Data Science</span>
               <span className="exp-period">Sept 2024 – May 2026</span>
             </div>
-            <div className="exp-company">New York University, Tandon School of Engineering | GPA: 3.61 / 4.0[cite: 5]</div>
+            <div className="exp-company">New York University, Tandon School of Engineering | GPA: 3.61 / 4.0</div>
             <div className="tag-list">
               <span className="tag-item">Machine Learning</span>
               <span className="tag-item">Urban Computing & AI</span>
