@@ -1,16 +1,14 @@
-# ☕ Divya Natekar | Developer Portfolio & Research Showcase
+# Divya Natekar | Developer Portfolio & Research Showcase
 
-[![Live Portfolio](https://img.shields.io/badge/Live_Site-divya--natekar--portfolio.vercel.app-8C6D58?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://divya-natekar-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Divya_Natekar-5C4538?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
-[![Email](https://img.shields.io/badge/Email-dyn2009%40nyu.edu-8C6D58?style=for-the-badge&logo=gmail&logoColor=ffffff)](mailto:dyn2009@nyu.edu)
+[![Live Portfolio](https://img.shields.io/badge/Website-Live_Site-91684A?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://divya-natekar-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Divya_Natekar-4A2E22?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
+[![Email](https://img.shields.io/badge/Email-dyn2009%40nyu.edu-7D6859?style=for-the-badge&logo=gmail&logoColor=ffffff)](mailto:dyn2009@nyu.edu)
 
-A polished, single-page developer portfolio showcasing research in **Urban AI, Agent-Based Mobility Simulation, and 3D LiDAR Analytics**, alongside full-stack application development with **Next.js, React, Supabase, and Microservices**.
-
-Designed with a warm **Milk Tea & Espresso** visual hierarchy and built using **React, Vite, and CSS Modules**.
+Personal developer portfolio showcasing research in **Urban AI, Agent-Based Mobility Simulation, and 3D LiDAR Analytics**, alongside full-stack application development built with **Next.js, React, Supabase, and Microservices**.
 
 ---
 
-## 🤎 About Me
+## Executive Summary
 
 * **Education:** M.S. in Urban Data Science at **New York University (NYU Tandon / CUSP)**.
 * **Research Focus:** Urban Artificial Intelligence, Agent-Based Mobility Modeling, Generative AI Architectures, and 3D LiDAR Point Cloud Analytics.
@@ -18,37 +16,37 @@ Designed with a warm **Milk Tea & Espresso** visual hierarchy and built using **
 
 ---
 
-## 🔬 Featured Research & Engineering
+## Featured Research & Engineering
 
-### 🏙️ Agent-Based Urban Simulation & LLM Decision Engines
+### Agent-Based Urban Simulation & LLM Decision Engines
 *NYU Center for Urban Science + Progress (CUSP) & Downtown Brooklyn Partnership*
 * Developed agent-based mobility simulation frameworks to evaluate multi-agent choice behavior in dense urban environments.
 * Integrated Large Language Models, spatial interaction methods, and gravity-based preference models to capture qualitative decision-making.
 
-### ☁️ 3D LiDAR Point Cloud Transient Object Removal
+### 3D LiDAR Point Cloud Transient Object Removal
 *NYU CUSP Guided Research (Awarded NYU Tandon CUSP Experiential Learning Scholarship)*
 * Designed machine learning filtering workflows using RANSAC algorithms and spatial clustering to isolate and remove transient objects (pedestrians, vehicles) from 3D urban point clouds.
 * Presented findings at the BATWorks Climate Event and NYU CUSP Fall Research Showcase.
 
-### ⚡ AI/ML Infrastructure & Telemetry
+### AI/ML Infrastructure & Telemetry
 *PM Accelerator*
 * Built Next.js micro-routes backed by Supabase/PostgreSQL for real-time AI context management.
 * Integrated Langfuse SDK telemetry for LLM observability, tracking execution flows, prompt latency, and inference logging.
 
 ---
 
-## 🛠️ Technical Skillset
+## Technical Skillset
 
 | Category | Skills & Tools |
 | :--- | :--- |
 | **Languages** | Python, TypeScript, Java, C++, SQL, HTML/CSS |
 | **AI/ML & Spatial** | LLMs, PyTorch, TensorFlow, Scikit-Learn, Langfuse, RAG, 3D LiDAR, RANSAC, Pandas, NumPy |
-| **Full-Stack** | Next.js, React.js, Java Spring Boot, REST APIs, Tailwind CSS, Microservices |
+| **Full-Stack** | Next.js, React.js, Java Spring Boot, REST APIs, Microservices |
 | **Cloud & DevOps** | Supabase, PostgreSQL, Azure, Apache Kafka, Terraform, Docker, Azure DevOps, Git |
 
 ---
 
-## 🚀 Local Development Setup
+## Local Development Setup
 
 ```bash
 # 1. Clone the repository
