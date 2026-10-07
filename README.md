@@ -1,27 +1,9 @@
 <div align="center">
 
-<!-- Animated Header SVG -->
-<svg width="100%" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="teaGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4A2E22" />
-      <stop offset="50%" stop-color="#91684A" />
-      <stop offset="100%" stop-color="#4A2E22" />
-    </linearGradient>
-  </defs>
-  <style>
-    .name-title {
-      font-family: 'Inter', -apple-system, sans-serif;
-      font-size: 38px;
-      font-weight: 800;
-      fill: url(#teaGradient);
-      letter-spacing: -0.5px;
-    }
-  </style>
-  <text x="50%" y="50" text-anchor="middle" class="name-title">Divya Natekar</text>
-</svg>
+<!-- Typewriter Animated Header SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=4A2E22&center=true&vCenter=true&width=500&height=50&lines=Divya+Natekar" alt="Divya Natekar" />
 
-**Software Engineer (AI/ML) & Spatial Analytics Specialist**
+### Software Engineer (AI/ML) & Spatial Analytics Specialist
 
 [![Portfolio](https://img.shields.io/badge/Live_Portfolio-91684A?style=flat-square&logo=vercel&logoColor=ffffff)](https://divya-natekar-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4A2E22?style=flat-square&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/divya-yeshwant-natekar/)
@@ -33,7 +15,7 @@ Personal developer portfolio and source code showcasing research in **Urban AI, 
 
 ---
 
-## Overview
+### Overview
 
 * **Education:** M.S. in Urban Data Science, **New York University (NYU Tandon / CUSP)**
 * **Research Focus:** Urban AI, Agent-Based Mobility Systems, Generative AI Architectures, 3D Point Cloud Analytics
@@ -41,26 +23,26 @@ Personal developer portfolio and source code showcasing research in **Urban AI, 
 
 ---
 
-## Core Research & Engineering Projects
+### Core Research & Engineering Projects
 
-### Agent-Based Urban Mobility Simulation & LLM Engines
+#### Agent-Based Urban Mobility Simulation & LLM Engines
 *NYU Center for Urban Science + Progress (CUSP) & Downtown Brooklyn Partnership*
 * Modeled multi-agent choice behavior in dense urban transportation networks using agent-based simulation frameworks.
 * Combined Large Language Models, spatial interaction methods, and gravity-based engines to simulate qualitative decision-making.
 
-### Transient Object Removal from 3D LiDAR Point Clouds
+#### Transient Object Removal from 3D LiDAR Point Clouds
 *NYU CUSP Guided Research (Awarded NYU Tandon CUSP Experiential Learning Scholarship)*
 * Engineered RANSAC algorithms and spatial clustering workflows to isolate and filter dynamic obstacles (pedestrians, vehicles) from 3D urban point clouds.
 * Presented findings at the BATWorks Climate Event and NYU CUSP Fall Showcase.
 
-### AI Observability & Telemetry Infrastructure
+#### AI Observability & Telemetry Infrastructure
 *PM Accelerator*
 * Designed Next.js App Router API micro-routes backed by Supabase & PostgreSQL for real-time AI context management.
 * Integrated Langfuse SDK telemetry across API boundaries to trace LLM execution flows, prompt latency, and inference metrics.
 
 ---
 
-## Technical Competencies
+### Technical Competencies
 
 * **Languages:** Python, TypeScript, Java, C++, SQL, HTML/CSS
 * **AI/ML & Spatial Analytics:** LLMs, PyTorch, TensorFlow, Scikit-Learn, Langfuse, RAG, 3D LiDAR, RANSAC, Pandas, NumPy
@@ -69,7 +51,7 @@ Personal developer portfolio and source code showcasing research in **Urban AI, 
 
 ---
 
-## Local Setup Instructions
+### Local Setup Instructions
 
 ```bash
 # Clone repository
