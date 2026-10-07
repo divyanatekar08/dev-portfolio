@@ -46,29 +46,6 @@ Personal developer portfolio showcasing research in **Urban AI, Agent-Based Simu
 
 ---
 
-## 📂 Project Structure
-
-dev-portfolio/
-├── public/
-│   ├── Divya_Natekar_Resume.pdf    # Resume download file
-│   └── favicon.ico                 # App icon
-├── src/
-│   ├── assets/                     # Project screenshots & images
-│   ├── components/                 # Reusable UI components
-│   │   ├── Header.jsx              # Navigation bar
-│   │   ├── Hero.jsx                # Introduction section
-│   │   ├── Projects.jsx            # Project cards & showcases
-│   │   ├── Experience.jsx          # Experience & research timeline
-│   │   ├── Skills.jsx              # Technical skills showcase
-│   │   └── Contact.jsx             # Contact form & social links
-│   ├── App.jsx                     # Root component layout
-│   ├── main.jsx                    # Application entry point
-│   └── index.css                   # Global styles & Tailwind directives
-├── package.json
-└── vite.config.js
-
----
-
 ## 🚀 Local Development Setup
 
 ```bash
