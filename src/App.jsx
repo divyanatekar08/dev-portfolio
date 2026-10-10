@@ -11,10 +11,10 @@ export default function App() {
           <h1>Divya Natekar</h1>
           <h2>Software Engineer Intern - AI/ML</h2>
           <p className="bio-text">
-            I am a recent graduate from the Center for Urban Science + Progress department at New York University[cite: 1]. I majored in the Urban Data Science program and have extensive experience across the Data Science & Analytics, Machine Learning, and Artificial Intelligence fields[cite: 1].
+            I am a recent graduate from the Center for Urban Science + Progress department at New York University. I majored in the Urban Data Science program and have extensive experience across the Data Science & Analytics, Machine Learning, and Artificial Intelligence fields.
           </p>
           <p className="bio-text">
-            Currently, I am an SWE (AI/ML) intern at Project Manager Accelerator, specializing in building scalable full-stack applications, voice-text memo capture engines, and LLM telemetry pipelines[cite: 1].
+            Currently, I am an SWE (AI/ML) intern at Project Manager Accelerator, specializing in building scalable full-stack applications, voice-text memo capture engines, and LLM telemetry pipelines.
           </p>
 
           <div className="role-pills">
@@ -52,7 +52,7 @@ export default function App() {
             <img src={profilePic} alt="Divya Natekar" className="about-photo" />
             <div className="about-info">
               <p>
-                During my time at New York University, I worked with 3D geospatial datasets (LiDAR point clouds) and Agent-Based Modeling. I am also a CUSP Experiential 2025 Scholar for pursuing research in LiDAR[cite: 1, 13, 14].
+                During my time at New York University, I worked with 3D geospatial datasets (LiDAR point clouds) and Agent-Based Modeling. I am also a CUSP Experiential 2025 Scholar for pursuing research in LiDAR.
               </p>
             </div>
           </div>
@@ -71,11 +71,11 @@ export default function App() {
               </div>
               <div className="exp-company">PM Accelerator — Remote</div>
               <ul>
-                <li>Worked as a Lead Engineer for YourVillage, a personal relationship management application that provides users with AI-powered nudges and suggestions remembered from past voice or text transcriptions[cite: 1].</li>
-                <li>Engineered suggestions to be copy-paste only, ensuring nothing is transmitted without user approval[cite: 1].</li>
-                <li>Built core components for the Voice-Text Memo capture team and connected key backend API endpoints with the Supabase engine[cite: 1].</li>
-                <li>Utilized OpenAI’s Whisper model to deliver low-cost, high-accuracy voice-to-text transcription memos[cite: 1].</li>
-                <li>Implemented contact identification features to detect referenced individuals in memos from seed data or prompt users to create new contacts[cite: 1].</li>
+                <li>Worked as a Lead Engineer for YourVillage, a personal relationship management application that provides users with AI-powered nudges and suggestions remembered from past voice or text transcriptions.</li>
+                <li>Engineered suggestions to be copy-paste only, ensuring nothing is transmitted without user approval.</li>
+                <li>Built core components for the Voice-Text Memo capture team and connected key backend API endpoints with the Supabase engine.</li>
+                <li>Utilized OpenAI’s Whisper model to deliver low-cost, high-accuracy voice-to-text transcription memos.</li>
+                <li>Implemented contact identification features to detect referenced individuals in memos from seed data or prompt users to create new contacts.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Next.js</span>
@@ -95,8 +95,8 @@ export default function App() {
               </div>
               <div className="exp-company">L&T Technology Services (LTTS) — Airoli, India</div>
               <ul>
-                <li>Designed backend components with Java Spring Boot to ingest healthcare data collected from connected wearable devices on the Philips HSDP Cloud server using Apache Kafka and REST APIs[cite: 1].</li>
-                <li>Architected and deployed cloud infrastructure components using Microsoft Azure and Terraform[cite: 1].</li>
+                <li>Designed backend components with Java Spring Boot to ingest healthcare data collected from connected wearable devices on the Philips HSDP Cloud server using Apache Kafka and REST APIs.</li>
+                <li>Architected and deployed cloud infrastructure components using Microsoft Azure and Terraform.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Java Spring Boot</span>
@@ -143,8 +143,8 @@ export default function App() {
               </div>
               <div className="exp-company">NYU Center for Urban Science + Progress & Downtown Brooklyn Partnership Group</div>
               <ul>
-                <li>Developed an agent-based modeling (ABM) simulation framework as a capstone project to monitor urban mobility flows and multi-agent choice behavior[cite: 1].</li>
-                <li>Utilized LLMs to model human personas categorized into regional clusters and developed restaurant POIs monitored through ABM simulation rounds to extract actionable mobility insights[cite: 1].</li>
+                <li>Developed an agent-based modeling (ABM) simulation framework as a capstone project to monitor urban mobility flows and multi-agent choice behavior.</li>
+                <li>Utilized LLMs to model human personas categorized into regional clusters and developed restaurant POIs monitored through ABM simulation rounds to extract actionable mobility insights.</li>
               </ul>
               <div className="link-badge private">🔒 Company NDA</div>
             </div>
@@ -157,9 +157,9 @@ export default function App() {
               </div>
               <div className="exp-company">NYU Center for Urban Science + Progress</div>
               <ul>
-                <li>Processed LiDAR point cloud datasets of the Jay St – Willoughby St intersection in Brooklyn, NY to isolate dynamic noise from permanent urban structures[cite: 1, 13, 14].</li>
-                <li>Applied Machine Learning algorithms such as RANSAC to filter out transient objects (pedestrians, vehicles, birds) from static environment elements[cite: 1, 13, 14].</li>
-                <li>Awarded the CUSP Experiential Scholars 2025 grant to support and conduct this research[cite: 1, 13, 14].</li>
+                <li>Processed LiDAR point cloud datasets of the Jay St – Willoughby St intersection in Brooklyn, NY to isolate dynamic noise from permanent urban structures.</li>
+                <li>Applied Machine Learning algorithms such as RANSAC to filter out transient objects (pedestrians, vehicles, birds) from static environment elements.</li>
+                <li>Awarded the CUSP Experiential Scholars 2025 grant to support and conduct this research.</li>
               </ul>
               <a href="https://github.com/divyanatekar08" target="_blank" rel="noopener noreferrer" className="link-badge">
                 🔗 View GitHub Repository →
