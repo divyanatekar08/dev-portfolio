@@ -10,11 +10,14 @@ export default function App() {
         <div className="sidebar-header">
           <h1>Divya Natekar</h1>
           <h2>Software Engineer Intern — AI/ML</h2>
-          <p className="bio-text">
-            SWE (AI/ML) Intern at PM Accelerator and M.S. Urban Data Science graduate from New York University (NYU CUSP).
-          </p>
-          <p className="bio-text">
-            Specializing in building scalable full-stack applications, real-time voice/text capture engines, LLM telemetry pipelines, and 3D geospatial AI systems.
+          
+          <div className="bio-text">
+            <p>SWE (AI/ML) Intern at PM Accelerator</p>
+            <p>M.S. Urban Data Science Graduate from NYU CUSP</p>
+          </div>
+
+          <p className="bio-text" style={{ marginTop: '1rem' }}>
+            Specializing in building scalable full-stack applications, voice-text memo capture engines, LLM telemetry pipelines, and 3D geospatial AI systems.
           </p>
 
           <div className="role-pills">
@@ -52,11 +55,10 @@ export default function App() {
             <img src={profilePic} alt="Divya Natekar" className="about-photo" />
             <div className="about-info">
               <p>
-                I am a recent graduate from the Center for Urban Science + Progress (CUSP) at New York University, holding an M.S. in Urban Data Science. My expertise spans Data Science & Analytics, Machine Learning, and Artificial Intelligence, with a strong focus on productionizing intelligent software systems.
+                I am a recent graduate from the Center for Urban Science + Progress (CUSP) at New York University. I majored in Urban Data Science and have extensive experience across Data Science & Analytics, Machine Learning, and Artificial Intelligence.
               </p>
-              <br />
-              <p>
-                During my tenure at NYU, I specialized in processing high-dimensional 3D geospatial datasets (LiDAR point clouds) and developing multi-agent simulation frameworks. As a recipient of the prestigious CUSP Experiential Learning Scholarship 2025, I conducted grant-funded research on spatial noise filtering and 3D point cloud classification.
+              <p style={{ marginTop: '0.75rem' }}>
+                During my time at NYU, I worked with 3D geospatial datasets (LiDAR point clouds) and Agent-Based Modeling. I am also a CUSP Experiential 2025 Scholar for pursuing research in LiDAR.
               </p>
             </div>
           </div>
@@ -75,11 +77,11 @@ export default function App() {
               </div>
               <div className="exp-company">PM Accelerator — Remote</div>
               <ul>
-                <li>Served as Lead Engineer for <em>YourVillage</em>, an AI-powered personal relationship management platform that delivers contextual nudges based on user interaction history and transcriptions.</li>
-                <li>Architected the Voice-Text Memo Capture engine, integrating OpenAI's Whisper model to enable cost-effective, high-accuracy speech-to-text processing for incoming user memos.</li>
-                <li>Engineered backend micro-routes and API endpoints connecting the core AI ingestion pipelines directly with Supabase and PostgreSQL database layers.</li>
-                <li>Designed an automated contact identification module to parse entity references within transcribed memos, cross-referencing seed data to auto-link contacts or prompt new profile creation.</li>
-                <li>Enforced strict privacy guardrails by designing copy-paste suggestion workflows, ensuring no user communications are automatically dispatched without explicit user authorization.</li>
+                <li>Lead Engineer for <em>YourVillage</em>, a personal relationship management application providing users with AI-powered nudges and suggestions remembered from past voice or text transcriptions.</li>
+                <li>Designed suggestions to be copy-paste only, ensuring nothing is dispatched without user approval.</li>
+                <li>Worked on the Voice-Text Memo capture team and built backend micro-routes to connect API endpoints with the Supabase engine.</li>
+                <li>Integrated the OpenAI Whisper model for low-cost, high-accuracy voice-to-text memo transcription.</li>
+                <li>Developed the contact identification feature to detect mentioned contacts in memos, prompting new contact creation or matching referenced contacts from seed data.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Next.js</span>
@@ -87,7 +89,6 @@ export default function App() {
                 <span className="tag-item">PostgreSQL</span>
                 <span className="tag-item">Langfuse</span>
                 <span className="tag-item">TypeScript</span>
-                <span className="tag-item">OpenAI Whisper</span>
               </div>
               <div className="link-badge private">🔒 Company NDA</div>
             </div>
@@ -100,15 +101,14 @@ export default function App() {
               </div>
               <div className="exp-company">L&T Technology Services (LTTS) — Airoli, India</div>
               <ul>
-                <li>Architected backend Java Spring Boot microservices to ingest real-time biometric telemetry from connected wearable medical devices on the Philips HSDP Cloud server.</li>
-                <li>Streamed distributed IoT data pipelines using Apache Kafka and designed RESTful endpoints to facilitate high-throughput healthcare data processing.</li>
-                <li>Provisioned and managed cloud infra resources across Microsoft Azure using Terraform infrastructure-as-code scripts.</li>
+                <li>Designed backend components using Java Spring Boot to ingest healthcare data collected from connected wearable devices on the Philips HSDP Cloud server via Apache Kafka and REST APIs.</li>
+                <li>Built cloud infrastructure components on Microsoft Azure using Terraform.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Java Spring Boot</span>
                 <span className="tag-item">Apache Kafka</span>
                 <span className="tag-item">Terraform</span>
-                <span className="tag-item">Microsoft Azure</span>
+                <span className="tag-item">Azure</span>
                 <span className="tag-item">Postman</span>
               </div>
               <div className="link-badge private">🏢 Internal Client Platform</div>
@@ -134,11 +134,11 @@ export default function App() {
             <div className="tech-box">
               <h4>Data Science & AI/ML</h4>
               <div className="tag-list">
-                <span className="tag-item">LLMs</span>
+                <span className="tag-item">LLM</span>
                 <span className="tag-item">PyTorch</span>
                 <span className="tag-item">TensorFlow</span>
                 <span className="tag-item">Langfuse</span>
-                <span className="tag-item">3D LiDAR</span>
+                <span className="tag-item">LiDAR</span>
                 <span className="tag-item">RANSAC</span>
               </div>
             </div>
@@ -149,8 +149,8 @@ export default function App() {
                 <span className="tag-item">React.js</span>
                 <span className="tag-item">Spring Boot</span>
                 <span className="tag-item">Supabase</span>
-                <span className="tag-item">Microsoft Azure</span>
-                <span className="tag-item">Apache Kafka</span>
+                <span className="tag-item">Azure</span>
+                <span className="tag-item">Kafka</span>
                 <span className="tag-item">Terraform</span>
               </div>
             </div>
@@ -170,8 +170,8 @@ export default function App() {
               </div>
               <div className="exp-company">NYU Center for Urban Science + Progress & Downtown Brooklyn Partnership Group</div>
               <ul>
-                <li>Developed an LLM-driven Agent-Based Modeling (ABM) simulation framework as a capstone project to analyze urban mobility patterns and evaluate multi-agent decision-making behaviors.</li>
-                <li>Constructed synthetic human personas clustered across 5–7 regional demographics and simulated agent choice dynamics against urban Points of Interest (POIs) to generate spatial behavioral insights.</li>
+                <li>Developed an Agent-Based Modeling (ABM) simulation framework as a capstone project to monitor urban mobility flows and multi-agent choice behavior.</li>
+                <li>Used LLMs to model human personas categorized into 5–7 local regional clusters and monitored restaurant POIs through ABM simulation rounds to extract insights.</li>
               </ul>
               <div className="link-badge private">🔒 Company NDA</div>
             </div>
@@ -184,9 +184,9 @@ export default function App() {
               </div>
               <div className="exp-company">NYU Center for Urban Science + Progress</div>
               <ul>
-                <li>Processed dense 3D urban LiDAR point clouds capturing the Jay St – Willoughby St intersection in Brooklyn, NY to separate permanent architectural geometry from dynamic environmental noise.</li>
-                <li>Designed machine learning filtering pipelines employing RANSAC and spatial clustering algorithms to isolate and strip transient objects (pedestrians, vehicles, moving clutter).</li>
-                <li>Awarded the CUSP Experiential Learning Scholarship 2025 to support and present this spatial analytics research.</li>
+                <li>Worked on removing transient object noise from a 3D urban LiDAR point cloud dataset of the Jay St – Willoughby St intersection in Brooklyn, NY.</li>
+                <li>Employed Machine Learning algorithms such as RANSAC to filter out transient objects (pedestrians, vehicles, birds) from permanent static structures.</li>
+                <li>Awarded the CUSP Experiential Scholars 2025 grant to support and conduct this research.</li>
               </ul>
               <a href="https://github.com/divyanatekar08" target="_blank" rel="noopener noreferrer" className="link-badge">
                 🔗 View GitHub Repository →
