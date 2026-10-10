@@ -1,40 +1,40 @@
 import React from 'react';
 import profilePic from './assets/my-picture.jpg';
-import './index.css';
+import resumePdf from '/Divya_Natekar_Resume.pdf';
 
 export default function App() {
   return (
     <div className="portfolio-layout">
-      {/* LEFT FIXED SIDEBAR */}
+      {/* Left Sidebar */}
       <aside className="sidebar">
-        <div>
-          <div className="sidebar-header">
-            <h1>Divya Natekar</h1>
-            <h2>Software Engineer Intern (AI/ML) & Spatial Analytics Specialist</h2>
-          </div>
-
+        <div className="sidebar-header">
+          <h1>Divya Natekar</h1>
+          <h2>Software Engineer Intern - AI/ML</h2>
           <p className="bio-text">
-            I build scalable full-stack applications, spatial simulation decision engines, and real-time AI telemetry pipelines. Currently pursuing my M.S. in Urban Data Science at NYU Tandon.
+            I am a recent graduate from the Center for Urban Science + Progress department at New York University[cite: 1]. I majored in the Urban Data Science program and have extensive experience across the Data Science & Analytics, Machine Learning, and Artificial Intelligence fields[cite: 1].
+          </p>
+          <p className="bio-text">
+            Currently, I am an SWE (AI/ML) intern at Project Manager Accelerator, specializing in building scalable full-stack applications, voice-text memo capture engines, and LLM telemetry pipelines[cite: 1].
           </p>
 
           <div className="role-pills">
             <span className="pill">AI/ML Engineer</span>
             <span className="pill">Full Stack</span>
-            <span className="pill">Spatial Data Science</span>
-            <span className="pill">Urban AI</span>
+            <span className="pill">Geospatial Data</span>
+            <span className="pill">LLM Agents</span>
           </div>
-
-          <nav className="sidebar-nav">
-            <a href="#about">— About</a>
-            <a href="#experience">— Experience</a>
-            <a href="#skills">— Tech Stack</a>
-            <a href="#projects">— Projects & Research</a>
-            <a href="#education">— Education</a>
-          </nav>
         </div>
 
+        <nav className="sidebar-nav">
+          <a href="#about">— ABOUT</a>
+          <a href="#experience">— EXPERIENCE</a>
+          <a href="#tech-stack">— TECH STACK</a>
+          <a href="#projects">— PROJECTS & RESEARCH</a>
+          <a href="#education">— EDUCATION</a>
+        </nav>
+
         <div className="sidebar-actions">
-          <a href="/Divya_Natekar_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-sidebar">
+          <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn-sidebar">
             📄 View Resume
           </a>
           <a href="mailto:dyn2009@nyu.edu" className="btn-sidebar">
@@ -43,27 +43,27 @@ export default function App() {
         </div>
       </aside>
 
-      {/* RIGHT SCROLLABLE CONTENT */}
+      {/* Right Content Area */}
       <main className="main-content">
-        
-        {/* ABOUT SECTION */}
+        {/* About Section */}
         <section id="about" className="content-section">
-          <h2 className="section-title">About Me</h2>
+          <h3 className="section-title">About Me</h3>
           <div className="about-card">
             <img src={profilePic} alt="Divya Natekar" className="about-photo" />
             <div className="about-info">
               <p>
-                I hold an M.S. in Urban Data Science from <strong>NYU Tandon / CUSP</strong>. My focus lies at the intersection of AI decision models, high-performance web applications, and 3D spatial analytics.
+                During my time at New York University, I worked with 3D geospatial datasets (LiDAR point clouds) and Agent-Based Modeling. I am also a CUSP Experiential 2025 Scholar for pursuing research in LiDAR[cite: 1, 13, 14].
               </p>
             </div>
           </div>
         </section>
 
-        {/* EXPERIENCE SECTION */}
+        {/* Experience Section */}
         <section id="experience" className="content-section">
-          <h2 className="section-title">Where I've Worked</h2>
+          <h3 className="section-title">Where I’ve Worked</h3>
           <div className="experience-list">
             
+            {/* PM Accelerator */}
             <div className="exp-card">
               <div className="exp-header">
                 <span className="exp-title">Software Engineer Intern (AI/ML) — Lead Engineer</span>
@@ -71,9 +71,11 @@ export default function App() {
               </div>
               <div className="exp-company">PM Accelerator — Remote</div>
               <ul>
-                <li>Designed Next.js App Router API micro-routes backed by Supabase and PostgreSQL to power a real-time AI personal relationship manager.</li>
-                <li>Integrated Langfuse SDK telemetry across Next.js API boundaries to trace LLM execution flows and monitor prompt latency.</li>
-                <li>Refactored query logic using ISO timestamp boundary filtering in Supabase to enhance security and query efficiency.</li>
+                <li>Worked as a Lead Engineer for YourVillage, a personal relationship management application that provides users with AI-powered nudges and suggestions remembered from past voice or text transcriptions[cite: 1].</li>
+                <li>Engineered suggestions to be copy-paste only, ensuring nothing is transmitted without user approval[cite: 1].</li>
+                <li>Built core components for the Voice-Text Memo capture team and connected key backend API endpoints with the Supabase engine[cite: 1].</li>
+                <li>Utilized OpenAI’s Whisper model to deliver low-cost, high-accuracy voice-to-text transcription memos[cite: 1].</li>
+                <li>Implemented contact identification features to detect referenced individuals in memos from seed data or prompt users to create new contacts[cite: 1].</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Next.js</span>
@@ -82,11 +84,10 @@ export default function App() {
                 <span className="tag-item">Langfuse</span>
                 <span className="tag-item">TypeScript</span>
               </div>
-              <div className="link-badge private">
-                🔒 Enterprise NDA / Private Repository
-              </div>
+              <div className="link-badge private">🔒 Company NDA</div>
             </div>
 
+            {/* LTTS */}
             <div className="exp-card">
               <div className="exp-header">
                 <span className="exp-title">Software Development Intern</span>
@@ -94,9 +95,8 @@ export default function App() {
               </div>
               <div className="exp-company">L&T Technology Services (LTTS) — Airoli, India</div>
               <ul>
-                <li>Built healthcare data components integrating connected wearable devices with the Philips HSDP cloud ecosystem.</li>
-                <li>Engineered real-time data ingestion pipelines using Java Spring Boot, Apache Kafka, and Spring Vault.</li>
-                <li>Provisioned cloud infrastructure using Terraform and Microsoft Azure.</li>
+                <li>Designed backend components with Java Spring Boot to ingest healthcare data collected from connected wearable devices on the Philips HSDP Cloud server using Apache Kafka and REST APIs[cite: 1].</li>
+                <li>Architected and deployed cloud infrastructure components using Microsoft Azure and Terraform[cite: 1].</li>
               </ul>
               <div className="tag-list">
                 <span className="tag-item">Java Spring Boot</span>
@@ -105,121 +105,83 @@ export default function App() {
                 <span className="tag-item">Azure</span>
                 <span className="tag-item">Postman</span>
               </div>
-              <div className="link-badge private">
-                🏢 Internal Client Platform (Non-Public Source)
-              </div>
+              <div className="link-badge private">🏢 Internal Client Platform</div>
             </div>
 
           </div>
         </section>
 
-        {/* TECH STACK SECTION */}
-        <section id="skills" className="content-section">
-          <h2 className="section-title">Tech Stack</h2>
+        {/* Tech Stack Section */}
+        <section id="tech-stack" className="content-section">
+          <h3 className="section-title">Technical Stack</h3>
           <div className="tech-grid">
             <div className="tech-box">
               <h4>Languages</h4>
-              <div className="tag-list">
-                <span className="tag-item">Python</span>
-                <span className="tag-item">TypeScript</span>
-                <span className="tag-item">Java</span>
-                <span className="tag-item">C++</span>
-                <span className="tag-item">SQL</span>
-              </div>
+              <p>Python, TypeScript, Java, C++, SQL</p>
             </div>
             <div className="tech-box">
-              <h4>AI / ML & Analytics</h4>
-              <div className="tag-list">
-                <span className="tag-item">LLMs</span>
-                <span className="tag-item">PyTorch</span>
-                <span className="tag-item">TensorFlow</span>
-                <span className="tag-item">Langfuse</span>
-                <span className="tag-item">3D LiDAR</span>
-                <span className="tag-item">RANSAC</span>
-              </div>
+              <h4>Data Science & AI/ML</h4>
+              <p>LLM, PyTorch, TensorFlow, Langfuse, LiDAR, RANSAC</p>
             </div>
             <div className="tech-box">
               <h4>Full-Stack & Cloud</h4>
-              <div className="tag-list">
-                <span className="tag-item">Next.js</span>
-                <span className="tag-item">React.js</span>
-                <span className="tag-item">Spring Boot</span>
-                <span className="tag-item">Supabase</span>
-                <span className="tag-item">Azure</span>
-                <span className="tag-item">Kafka</span>
-                <span className="tag-item">Terraform</span>
-              </div>
+              <p>Next.js, React.js, Spring Boot, Supabase, Azure, Kafka, Terraform</p>
             </div>
           </div>
         </section>
 
-        {/* PROJECTS & RESEARCH SECTION */}
+        {/* Projects & Research Section */}
         <section id="projects" className="content-section">
-          <h2 className="section-title">Featured Projects & Research</h2>
+          <h3 className="section-title">Featured Projects & Research</h3>
           <div className="experience-list">
 
+            {/* ToM */}
             <div className="exp-card">
               <div className="exp-header">
-                <span className="exp-title">Thinking on the Move: Agent-Based Urban Simulation</span>
+                <span className="exp-title">Thinking on the Move (ToM): An LLM-Agent Framework for Modeling Urban Consumption Choices from Mobility Traces</span>
                 <span className="exp-period">Sept 2025 – May 2026</span>
               </div>
-              <div className="exp-company">NYU CUSP & Downtown Brooklyn Partnership</div>
+              <div className="exp-company">NYU Center for Urban Science + Progress & Downtown Brooklyn Partnership Group</div>
               <ul>
-                <li>Developed an agent-based simulation framework analyzing urban mobility flows and multi-agent choice behavior.</li>
-                <li>Integrated LLMs, spatial interaction methods, and gravity-based preference engines to capture qualitative decision-making.</li>
+                <li>Developed an agent-based modeling (ABM) simulation framework as a capstone project to monitor urban mobility flows and multi-agent choice behavior[cite: 1].</li>
+                <li>Utilized LLMs to model human personas categorized into regional clusters and developed restaurant POIs monitored through ABM simulation rounds to extract actionable mobility insights[cite: 1].</li>
               </ul>
-              <div className="tag-list">
-                <span className="tag-item">Agent-Based Modeling</span>
-                <span className="tag-item">LLMs</span>
-                <span className="tag-item">Spatial Analytics</span>
-                <span className="tag-item">Python</span>
-              </div>
-              <a href="https://github.com/divyanatekar08" target="_blank" rel="noopener noreferrer" className="link-badge">
-                🔗 View NYU Research Profile →
-              </a>
+              <div className="link-badge private">🔒 Company NDA</div>
             </div>
 
+            {/* LiDAR */}
             <div className="exp-card">
               <div className="exp-header">
                 <span className="exp-title">Transient Object Removal from Urban LiDAR Point Clouds</span>
                 <span className="exp-period">Jun 2025 – Aug 2025</span>
               </div>
-              <div className="exp-company">NYU CUSP Summer Guided Research</div>
+              <div className="exp-company">NYU Center for Urban Science + Progress</div>
               <ul>
-                <li>Designed RANSAC filtering workflows and spatial clustering to strip transient objects from 3D LiDAR point clouds.</li>
-                <li>Awarded NYU Tandon CUSP Experiential Learning Scholarship; presented at Fall Showcase.</li>
+                <li>Processed LiDAR point cloud datasets of the Jay St – Willoughby St intersection in Brooklyn, NY to isolate dynamic noise from permanent urban structures[cite: 1, 13, 14].</li>
+                <li>Applied Machine Learning algorithms such as RANSAC to filter out transient objects (pedestrians, vehicles, birds) from static environment elements[cite: 1, 13, 14].</li>
+                <li>Awarded the CUSP Experiential Scholars 2025 grant to support and conduct this research[cite: 1, 13, 14].</li>
               </ul>
-              <div className="tag-list">
-                <span className="tag-item">3D LiDAR</span>
-                <span className="tag-item">RANSAC</span>
-                <span className="tag-item">Spatial Clustering</span>
-                <span className="tag-item">Point Cloud Processing</span>
-              </div>
               <a href="https://github.com/divyanatekar08" target="_blank" rel="noopener noreferrer" className="link-badge">
-                🔗 View Research Presentation →
+                🔗 View GitHub Repository →
               </a>
             </div>
 
           </div>
         </section>
 
-        {/* EDUCATION SECTION */}
+        {/* Education Section */}
         <section id="education" className="content-section">
-          <h2 className="section-title">Education</h2>
+          <h3 className="section-title">Education</h3>
           <div className="exp-card">
             <div className="exp-header">
-              <span className="exp-title">M.S. Urban Data Science</span>
+              <span className="exp-title">M.S. in Urban Data Science</span>
               <span className="exp-period">Sept 2024 – May 2026</span>
             </div>
-            <div className="exp-company">New York University, Tandon School of Engineering | GPA: 3.61 / 4.0</div>
-            <div className="tag-list">
-              <span className="tag-item">Machine Learning</span>
-              <span className="tag-item">Urban Computing & AI</span>
-              <span className="tag-item">Advanced Spatial Analytics</span>
+            <div className="exp-company">
+              NYU Center for Urban Science + Progress — New York University, Tandon School of Engineering | GPA: 3.61 / 4.0
             </div>
           </div>
         </section>
-
       </main>
     </div>
   );
