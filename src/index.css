@@ -67,8 +67,46 @@ a {
   font-size: 1.05rem;
   color: var(--text-muted);
   font-weight: 500;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   line-height: 1.4;
+}
+
+/* Sidebar Status Badges */
+.status-badge-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-headers);
+  box-shadow: 0 1px 3px rgba(74, 46, 34, 0.04);
+  transition: all 0.2s ease;
+}
+
+.status-badge:hover {
+  border-color: var(--border-hover);
+  transform: translateX(3px);
+  box-shadow: 0 3px 8px rgba(74, 46, 34, 0.08);
+}
+
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--accent-tea);
 }
 
 .bio-text {
@@ -76,10 +114,6 @@ a {
   font-size: 0.92rem;
   line-height: 1.5;
   margin-bottom: 1rem;
-}
-
-.bio-text p {
-  margin-bottom: 0.35rem;
 }
 
 .role-pills {

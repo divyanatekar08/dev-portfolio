@@ -11,9 +11,15 @@ export default function App() {
           <h1>Divya Natekar</h1>
           <h2>Software Engineer Intern — AI/ML</h2>
           
-          <div className="bio-text">
-            <p>SWE (AI/ML) Intern at PM Accelerator</p>
-            <p>M.S. Urban Data Science Graduate from NYU CUSP</p>
+          {/* Status Badges */}
+          <div className="status-badge-list">
+            <div className="status-badge">
+              <span className="badge-dot"></span>
+              SWE (AI/ML) Intern at PM Accelerator
+            </div>
+            <div className="status-badge">
+              🎓 M.S. Urban Data Science Graduate from NYU CUSP
+            </div>
           </div>
 
           <p className="bio-text" style={{ marginTop: '1rem' }}>
