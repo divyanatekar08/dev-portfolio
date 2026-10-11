@@ -190,7 +190,7 @@ export default function App() {
                 <li>Designed machine learning filtering pipelines employing RANSAC and spatial clustering algorithms to isolate and strip transient objects (pedestrians, vehicles, moving clutter).</li>
                 <li>Awarded the CUSP Experiential Learning Scholarship 2025 to support and present this spatial analytics research.</li>
               </ul>
-              <a href="https://github.com/divyanatekar08" target="_blank" rel="noopener noreferrer" className="link-badge">
+              <a href="https://github.com/divyanatekar08/lidar-point-cloud" target="_blank" rel="noopener noreferrer" className="link-badge">
                 🔗 View GitHub Repository →
               </a>
             </div>
