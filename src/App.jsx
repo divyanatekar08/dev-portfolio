@@ -14,7 +14,7 @@ export default function App() {
           {/* Status Badges */}
           <div className="status-badge-list">
             <div className="status-badge">
-              👔 SWE (AI/ML) Intern at PM Accelerator
+              💼 SWE (AI/ML) Intern at PM Accelerator
             </div>
             <div className="status-badge">
               🎓 M.S. Urban Data Science Graduate from NYU CUSP
